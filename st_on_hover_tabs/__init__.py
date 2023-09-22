@@ -7,7 +7,7 @@ _RELEASE = True
 if _RELEASE:
 
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    build_dir = os.path.join(root_dir, "frontend/")
+    build_dir = os.path.join(root_dir, "frontend/src")
 
     _on_hover_tabs = components.declare_component(
         "on_hover_tabs",
